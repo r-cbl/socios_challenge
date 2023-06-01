@@ -1,6 +1,6 @@
 # Socios challenge
 
-## BackEnd [Python + Django]
+## BackEnd [Python + Django + SQLite]
 ### Requirements 🔧
 - Python 3.10.1
 - Django 4.2.1
