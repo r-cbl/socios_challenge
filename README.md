@@ -37,7 +37,7 @@ docker-compose up -d
 - Typescript
 - Axios
 - React Router Dom
-
+- Crear un archivo .env en la raiz del proyecto con la variable de entorno REACT_APP_API_URL siguiendo el ejemplo del archivo .env.example
 
 ### `npm install`
 ### Run [port]:3000 🏁
