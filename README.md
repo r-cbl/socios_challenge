@@ -8,7 +8,7 @@
 - Django cors headers
 - React 17.0.2
 - Typescript 4.3.5
-- Docker compose (optativo)
+- Docker compose (opcional)
 
 ### Python Libs 📚
 - names
@@ -16,7 +16,7 @@
 - string
 
 ### API  🚀
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/27736087-7fcccdd8-a40f-40d2-8e9d-0fca2001c053?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D27736087-7fcccdd8-a40f-40d2-8e9d-0fca2001c053%26entityType%3Dcollection%26workspaceId%3D1c88f05e-645d-49fc-8c0f-9271dad95af6)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/25152348-a77c3b8b-eea9-461a-951b-1ecea70a6fe4?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25152348-a77c3b8b-eea9-461a-951b-1ecea70a6fe4%26entityType%3Dcollection%26workspaceId%3Df3f0449c-822c-4a75-94f1-b7e988285bb9)
 
 ### Run [port]:8000 🏁
 ```bash
@@ -29,6 +29,19 @@ docker-compose up -d
 
 ## FrontEnd [React + MUI]
 
+### Requirements 🔧
+- MUI
+  - x-data-grid
+  - material-ui
+- React
+- Typescript
+- Axios
+- React Router Dom
+
+
+### `npm install`
+### Run [port]:3000 🏁
+### `npm start`
 
 
 Jun 2023

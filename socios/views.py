@@ -15,6 +15,14 @@ class SocioAPIView(APIView):
         if gba is not None:
             q.update({'gba': gba == 'true'})
 
+        nombre = request.GET.get('nombre')
+        if nombre is not None:
+            q.update({'nombre': nombre})
+
+        apellido = request.GET.get('apellido')
+        if apellido is not None:
+            q.update({'apellido': apellido})
+
         socio = Socio.objects.filter(**q)
 
         serializer = SocioSerializer(socio, many=True)
